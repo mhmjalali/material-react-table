@@ -128,7 +128,7 @@ const Example = () => {
                   }}
                   slotProps={{
                     textField: {
-                      helperText: 'Filter Mode: Less Than',
+                      helperText: `Filter Mode: ${column.columnDef.filterFn}`,
                       sx: { minWidth: '120px' },
                       variant: 'standard',
                     },
